@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        /* *{
+            margin: 0px;
+            padding: 0px;
+        } */
+          #main{
+              /* border: 1px solid red; */
+              padding: 40px 0px 40px 0px;
+              background-color: #4f7ecd;
+          }
+          #main>#body{
+              /* border: 1px solid black; */
+              width: 25%;
+              margin: auto;
+              background: white;
+              border-radius: 10px;
+             
+          }
+          h1{
+              text-align: center;
+              padding: 40px;
+          }
+          #main>#body>div{
+            /* border: 1px solid rebeccapurple; */
+            width: 80%;
+            margin: auto;
+          }
+          #main>#body>#boxes>hr{
+              /* make them bolder */
+              /* border: 2px solid gray; */
+              
+          }
+          #main>#body>#boxes>input:nth-child(1){
+             border: transparent;
+             /* width: auto; */
+          }
+         #main>#body>#boxes>hr+input{
+            border: transparent;
+         }
+         button{
+             padding:15px 106px;
+             margin: 25px 0px 10px 0px;
+             background-color: #7f51b4;
+             color: white;
+             border: 0px;
+            
+             
+         }
+         #main>#body>div+p{
+             /* padding-left: 60px; */
+             text-align: center;
+             padding-top: 30px;
+         }
+         #main>#body>p+p{
+             /* padding-left: 60px; */
+             text-align: center;
+             padding-bottom: 60px;
+         }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="body">
+             <h1>Login</h1>
+             <div id="boxes">
+                <input type="text" placeholder="Email">
+                <br>
+                <hr>
+                <input type="text" placeholder="Password">
+                <br>
+                <hr>
+                <button>Login</button>
+             </div>
+             
+             <p> <span style="color: gray;">Forget</span>  <span style="color: blue;">Password</span>?</p>
+             <p> <span style="color: gray;">Don't have an account?</span>  <span style="color: blue;">Sign Up</span></p>
+        </div>
+    </div>
+</body>
+</html>
